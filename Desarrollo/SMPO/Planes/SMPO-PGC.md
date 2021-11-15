@@ -1,5 +1,5 @@
 # SMPO-PGC
-## SMART MONEY PROTOTYPE ONLINE
+## SMART MONEY PROJECT ONLINE
 ### Plan SCM
 Integrantes:  
 | Alumno                               | Código   |
@@ -18,9 +18,8 @@ Integrantes:
 ### Control de versiones  
 | Versión | Autor | Descripción | Fecha |
 | ------- | ----- | ----------- | ----- |
-| zzz     | zzz   | zzz         | zzz   |
-| zzz     | zzz   | zzz         | zzz   |
-| zzz     | zzz   | zzz         | zzz   |
+| 1.0 | Grupo 01 | Documentación | 10/11/2021 |
+
 ---
 ### Índice
 1. Introducción  
@@ -55,7 +54,9 @@ Integrantes:
 
       &nbsp;&nbsp;&nbsp;
       1.3.1 **Objetivos Específicos**  
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;....  
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Montar un sistema de backend rápido y capaz de procesar todas las transacciones de manera veloz.  
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Utilizar de manera eficiente los recursos de hardware de los que dispondremos.  
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Ofrecer al público una interfaz intuitiva y fácil de utilizar  
 
 2. **Actividades de la GCS**  
    2.1 **Identificación**  
