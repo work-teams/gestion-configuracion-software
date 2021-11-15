@@ -2,25 +2,25 @@
 ## SMART MONEY PROTOTYPE ONLINE
 ### Plan SCM
 Integrantes:  
-|Alumno|Código|
-|---|---|
-|Cachique Falcon, Williams Eduardo|19200272|
-|Caballero Leon Fredi Alexander|18200076|
-|Jiminez Davila Marcelo Antonio|19200299|
-|Marin Evangelista, Jorge Luis|18200275|
-|Pichilingue Pimentel, Nathaly Nicole|19200247|
-|Quispe Cadillo, Andres|19200289|
-|Santos Rojas, Daniel Israel|19200102|
-|Torre Arteaga, Alexander|19200246|
+| Alumno                               | Código   |
+| ------------------------------------ | -------- |
+| Cachique Falcon, Williams Eduardo    | 19200272 |
+| Caballero Leon Fredi Alexander       | 18200076 |
+| Jiminez Davila Marcelo Antonio       | 19200299 |
+| Marin Evangelista, Jorge Luis        | 18200275 |
+| Pichilingue Pimentel, Nathaly Nicole | 19200247 |
+| Quispe Cadillo, Andres               | 19200289 |
+| Santos Rojas, Daniel Israel          | 19200102 |
+| Torre Arteaga, Alexander             | 19200246 |
 
 #### Version 1.0
 ---
 ### Control de versiones  
-|Versión|Autor|Descripción|Fecha|
-|---|---|---|---|
-|zzz|zzz|zzz|zzz|
-|zzz|zzz|zzz|zzz|
-|zzz|zzz|zzz|zzz|
+| Versión | Autor | Descripción | Fecha |
+| ------- | ----- | ----------- | ----- |
+| zzz     | zzz   | zzz         | zzz   |
+| zzz     | zzz   | zzz         | zzz   |
+| zzz     | zzz   | zzz         | zzz   |
 ---
 ### Índice
 1. Introducción  
@@ -40,7 +40,12 @@ Integrantes:
 1. **Introducción**  
    1.1 **Situación de la empresa**  
    1.2 **Problematica**  
-   1.3 **Objetivo del plan**  
+   1.3 **Objetivo del plan** 
+   
+   &nbsp;&nbsp;&nbsp;
+      1.3.1 **Objetivo General**
+
+      Ofrecer al público un servicio financiero digital fácil, rápido y seguro aplicando metodologías y tecnologías modernas que agilicen nuestros procesos al momento de adquirir activos como acciones, criptomonedas, divisas.
 
 2. **Actividades de la GCS**  
    2.1 **Identificación**  
