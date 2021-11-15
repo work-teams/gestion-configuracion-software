@@ -80,3 +80,23 @@ A continuación exponemos una pequeña lista de elementos pertenecientes al proy
 
 | Tabla 2. Lista de clasificación de los Ítems de la Configuración del proyecto ECI|
 | --|
+## 2.1.3 Lista de item con nomeclatura:
+La siguiente es una lista de los ítems mencionados anteriormente en el punto 2.1.1. Utilizaremos la nomenclatura ya explicada:
+| Tipo de Item	| Item |	Proyecto |
+| -- | -- | -- |
+| E | SMPO-DHU.md | SMPO |
+| E | SMPO-PP.md | SMPO |  
+| S |	SMPO-G.exe | - |
+| S |	VSCUS.exe |	- |
+| F |	SMPO-B.json | SMPO |
+| E |	SMPO-PGC.md | SMPO |
+| E |	SMPO-DBD.md	| SMPO |
+| E |	SMPO-DA.md | SMPO | 
+| E |	SMPO-DD.md | SMPO |
+| E |	SMPO-DDIS.md |	SMPO |
+| S |	MSQL.exe | - |
+| S |	SMPO-MD.md | SMPO |
+| S |	SMPO-MMP.md | SMPO |
+| S |	SMPO-CFBE.py |	SMPO |
+| S |	SMPO-UBDC.md |	SMPO |
+
