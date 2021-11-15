@@ -2,25 +2,25 @@
 ## SMART MONEY PROTOTYPE ONLINE
 ### Plan SCM
 Integrantes:  
-|Alumno|Código|
-|---|---|
-|Cachique Falcon, Williams Eduardo|19200272|
-|Caballero Leon Fredi Alexander|18200076|
-|Jiminez Davila Marcelo Antonio|19200299|
-|Marin Evangelista, Jorge Luis|18200275|
-|Pichilingue Pimentel, Nathaly Nicole|19200247|
-|Quispe Cadillo, Andres|19200289|
-|Santos Rojas, Daniel Israel|19200102|
-|Torre Arteaga, Alexander|19200246|
+| Alumno                               | Código   |
+| ------------------------------------ | -------- |
+| Cachique Falcon, Williams Eduardo    | 19200272 |
+| Caballero Leon Fredi Alexander       | 18200076 |
+| Jiminez Davila Marcelo Antonio       | 19200299 |
+| Marin Evangelista, Jorge Luis        | 18200275 |
+| Pichilingue Pimentel, Nathaly Nicole | 19200247 |
+| Quispe Cadillo, Andres               | 19200289 |
+| Santos Rojas, Daniel Israel          | 19200102 |
+| Torre Arteaga, Alexander             | 19200246 |
 
 #### Version 1.0
 ---
 ### Control de versiones  
-|Versión|Autor|Descripción|Fecha|
-|---|---|---|---|
-|zzz|zzz|zzz|zzz|
-|zzz|zzz|zzz|zzz|
-|zzz|zzz|zzz|zzz|
+| Versión | Autor | Descripción | Fecha |
+| ------- | ----- | ----------- | ----- |
+| zzz     | zzz   | zzz         | zzz   |
+| zzz     | zzz   | zzz         | zzz   |
+| zzz     | zzz   | zzz         | zzz   |
 ---
 ### Índice
 1. Introducción  
@@ -41,13 +41,15 @@ Integrantes:
    1.1 **Situación de la empresa**  
    La página web está dirigida a todo público mayor a 18 años y además posee una cuenta bancaria para realizar operaciones dentro de la página. La página web tiene por objetivo principal gestionar todas las operaciones como la compra y/ o venta de acciones, divisas y criptomonedas.  
    1.2 **Problematica**  
-   
       Debido a las condiciones internacionales y locales, el
       intercambio de divisa se ha intensificado, haciendo necesario un mejor control financiero y mejores operaciones para atender la oferta y la demanda, es por ello que es necesario un sistema online de intercambio de divisas.  
 
       El proyecto será adecuado, debido a la coyuntura actual, en donde nos encontramos siendo azotados por un virus. Esta plataforma nos permitirá hacer transacciones económicas sin la necesidad de que el cliente acuda a un centro bancario o caja de cambio de manera presencial, lo que impulsará el distanciamiento social que es requerido, además de ahorrar tiempo y dinero.
 
-   1.3 **Objetivo del plan**  
+   1.3 **Objetivo del plan**     
+   &nbsp;&nbsp;&nbsp;
+      1.3.1 **Objetivo General**
+      Ofrecer al público un servicio financiero digital fácil, rápido y seguro aplicando metodologías y tecnologías modernas que agilicen nuestros procesos al momento de adquirir activos como acciones, criptomonedas, divisas.
 
 2. **Actividades de la GCS**  
    2.1 **Identificación**  
