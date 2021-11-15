@@ -80,6 +80,29 @@ A continuación exponemos una pequeña lista de elementos pertenecientes al proy
 
 | Tabla 2. Lista de clasificación de los Ítems de la Configuración del proyecto ECI|
 | --|
+
+## 2.1.2 Definición de la Nomenclatura de ítem
+A continuación, se define la estructura de la nomenclatura para los nombres de los elementos de la configuración
+
+-Caso 1: En caso el ítem se trate de un elemento o documento que sea de uso en un proyecto en específico.
+
+|**Nomenclatura**|
+| :-: |
+|<p>ACRÓNIMO DEL PROYECTO + "-" + ACRÓNIMO DEL ELEMENTO+ "."+<br/> EXTENSIÓN DEL ARCHIVO</p><p></p><p>*Ejemplo:*</p><p>*SMPO-PP.md*</p><p></p>|
+
+-Caso 2: En caso de que el elemento sea solo para un proyecto y no un elemento perteneciente a un módulo.
+
+|**Nomenclatura**|
+| :-: |
+|<p>ACRÓNIMO DEL PROYECTO+"-"+ ACRÓNIMO DEL DOCUMENTO+"."+<br/>EXTENSIÓN DEL ARCHIVO</p><p></p><p>*Ejemplo:*</p><p>*Documento de Base de Datos*</p><p>*SMPO-DBD.md*</p><p></p>|
+
+-Caso 3: En caso de que el elemento pertenezca a un módulo.
+
+|**Nomenclatura**|
+| :-: |
+|<p>ACRÓNIMO DEL PROYECTO + "-" + ACRÓNIMO DEL MÓDULO + "." +<br/> EXTENSIÓN DEL ARCHIVO</p><p></p><p>*Ejemplo:*</p><p>*Código Fuente Back-End*</p><p>*SMPO-CFBE.py*</p><p></p>|
+
+
 ## 2.1.3 Lista de item con nomeclatura:
 La siguiente es una lista de los ítems mencionados anteriormente en el punto 2.1.1. Utilizaremos la nomenclatura ya explicada:
 | Tipo de Item	| Item |	Proyecto |
