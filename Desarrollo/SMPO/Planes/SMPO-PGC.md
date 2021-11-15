@@ -62,10 +62,11 @@ Integrantes:
    2.1 **Identificación**  
    &nbsp;&nbsp;&nbsp;<!-- Solo acepta sangria 2 niveles colocar espacio en blanco delante para simular mas sangria utilizando html -->
    2.1.1 **Lista de clasificacion de CI**  
-   &nbsp;&nbsp;&nbsp;&nbsp;A continuación exponemos una pequeña lista de elementos pertenecientes al proyecto, clasificados según el tipo al que pertenecen. 
-   &nbsp;&nbsp;&nbsp;&nbsp;Ítem de evolución para documentos y ejecutables, ítems fuente generalmente código fuente que cambia frecuentemente y archivos objeto utilizados para
-   &nbsp;&nbsp;&nbsp;&nbsp;compilar una aplicación de software para ambiente de producción, e ítems de soporte que son software base que un proyecto requiere para que ciertas
-   &nbsp;&nbsp;&nbsp;&nbsp;versiones de este sean exitosas.
+   &nbsp;&nbsp;&nbsp;&nbsp;A continuación exponemos una pequeña lista de elementos pertenecientes al proyecto, clasificados según el tipo  
+   &nbsp;&nbsp;&nbsp;&nbsp;al que pertenecen,ítem de evolución para documentos y ejecutables, ítems fuente generalmente código fuente que  
+   &nbsp;&nbsp;&nbsp;&nbsp;cambia frecuentemente y archivos objeto utilizados para compilar una aplicación de software para ambiente de  
+   &nbsp;&nbsp;&nbsp;&nbsp;producción, e ítems de soporte que son software base que un proyecto requiere para que ciertas versiones de este  
+   &nbsp;&nbsp;&nbsp;&nbsp;sean exitosas.
    
     
       | Tipo <br/> E=Evolución <br/> F=Fuente S=Soporte | Nombre del Ítem | Origen <br/> E=Empresa <br/> P=Proyecto |  Extensión |  Proyecto |
