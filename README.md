@@ -1,4 +1,4 @@
-# SMART MONEY PROTOTYPE ONLINE
+# SMART MONEY PROJECT ONLINE
 Repositorio para el curso de ***"Gestión de la configuración del software"***
 en el cual se pondra en práctica las metodologias, documentación y buenas prácticas aprendidas en el presente ciclo 2021-II.
 ### Profesora: Lenis Rossi Wong Portillo
