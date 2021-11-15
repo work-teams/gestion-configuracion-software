@@ -1,11 +1,4 @@
 
-- **Estandarización del código**
-
-La guía permite a los desarrolladores mantener los estándares establecidos para la realización de las interfaces del proyecto, asimismo la estandarización ayuda a mejorar la accesibilidad de la página web.
-
-- **Consolidación**
-
-Esta guía permite que todo el equipo involucrado (diseñadores y desarrolladores) puedan acceder a una sola fuente en la cual estarán presentes las características de los elementos visuales del software a desarrollar, de esta forma todos estarán informados del estilo de diseño utilizado durante el desarrollo de Smart Money Project Online
 
 **Estilos**
 
