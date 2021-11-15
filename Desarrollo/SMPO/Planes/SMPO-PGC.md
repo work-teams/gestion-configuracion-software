@@ -39,6 +39,7 @@ Integrantes:
 ### Contenido
 1. **Introducción**  
    1.1 **Situación de la empresa**  
+   La página web está dirigida a todo público mayor a 18 años y además posee una cuenta bancaria para realizar operaciones dentro de la página. La página web tiene por objetivo principal gestionar todas las operaciones como la compra y/ o venta de acciones, divisas y criptomonedas.  
    1.2 **Problematica**  
    1.3 **Objetivo del plan**  
 
