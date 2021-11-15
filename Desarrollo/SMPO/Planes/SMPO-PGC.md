@@ -40,6 +40,7 @@ Integrantes:
 1. **Introducción**  
    1.1 **Situación de la empresa**  
    La página web está dirigida a todo público mayor a 18 años y además posee una cuenta bancaria para realizar operaciones dentro de la página. La página web tiene por objetivo principal gestionar todas las operaciones como la compra y/ o venta de acciones, divisas y criptomonedas.  
+
    1.2 **Problematica**  
       Debido a las condiciones internacionales y locales, el
       intercambio de divisa se ha intensificado, haciendo necesario un mejor control financiero y mejores operaciones para atender la oferta y la demanda, es por ello que es necesario un sistema online de intercambio de divisas.  
@@ -48,87 +49,81 @@ Integrantes:
 
    1.3 **Objetivo del plan**     
    &nbsp;&nbsp;&nbsp;
-      1.3.1 **Objetivo General**
-      Ofrecer al público un servicio financiero digital fácil, rápido y seguro aplicando metodologías y tecnologías modernas que agilicen nuestros procesos al momento de adquirir activos como acciones, criptomonedas, divisas.
+      1.3.1 **Objetivo General**  
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ofrecer al público un servicio financiero digital fácil, rápido y seguro aplicando metodologías y tecnologías  modernas  
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;que agilicen nuestros procesos al momento de adquirir activos como acciones, criptomonedas, divisas.  
+
+      &nbsp;&nbsp;&nbsp;
+      1.3.1 **Objetivos Específicos**  
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;....  
 
 2. **Actividades de la GCS**  
    2.1 **Identificación**  
    &nbsp;&nbsp;&nbsp;<!-- Solo acepta sangria 2 niveles colocar espacio en blanco delante para simular mas sangria utilizando html -->
    2.1.1 **Lista de clasificacion de CI**  
+   &nbsp;&nbsp;&nbsp;&nbsp;.....
+
+      | Tipo <br/> E=Evolución <br/> F=Fuente S=Soporte | Nombre del Ítem | Origen <br/> E=Empresa <br/> P=Proyecto |  Extensión |  Proyecto |
+      | -- | -- | -- | -- | -- |
+      | E | Documento de Historias de Usuario | P | .md | Smart Money Project Online |
+      | E | Plan de Proyecto | P | .md | Smart Money Project Online |
+      | S | Git-2.33.1-64-bit | E | .exe | - |
+      | S | VSCodeUserSetupx64-1.61.2 | E | exe | - |
+      | F | backup | P | .json | Smart Money Project Online |
+      | E | Plan Gestión de la Configuración | E | .md | Smart Money Project Online |
+      | E | Documento de Base de Datos | P | .md | Smart Money Project Online |
+      | E | Documento de Arquitectura | P | .md | Smart Money Project Online |
+      | E | Documento de Despliegue | P | .md | Smart Money Project Online |
+      | E | Documento de Diseño | P | .md | Smart Money Project Online |
+      | S | MySQL | E | .md | Smart Money Project Online |
+      | S | Modelo de Distribución | P | .md | Smart Money Project Online |
+      | S | Modelo de Maquetado de prototipos | P | .md | Smart Money Project Online |
+      | S | Código fuente BackEnd | P | .py | Smart Money Project Online |
+      | S | URI de Base de Datos con credenciales| P | .md | Smart Money Project Online |  
+
    &nbsp;&nbsp;&nbsp;
    2.1.2 **Definición de la nomenclatura de ítem**  
-   &nbsp;&nbsp;&nbsp;
-   2.1.3 **Lista de ítem con la nomenclatura**  
----
+&nbsp;&nbsp;&nbsp;A continuación, se define la estructura de la nomenclatura para los nombres de los elementos de la configuración
 
-# 2. Actividades de la GCS
-
-# 2.1 Identificación
-
-## 2.1.1 Lista de clasificación de los Ítems de la Configuración (CI)
-
-A continuación exponemos una pequeña lista de elementos pertenecientes al proyecto, clasificados según el tipo al que pertenecen. Ítem de evolución para documentos y ejecutables, ítems fuente generalmente código fuente que cambia frecuentemente y archivos objeto utilizados para compilar una aplicación de software para ambiente de producción, e ítems de soporte que son software base que un proyecto requiere para que ciertas versiones de este sean exitosas
-
-| Tipo <br/> E=Evolución <br/> F=Fuente S=Soporte | Nombre del Ítem | Origen <br/> E=Empresa <br/> P=Proyecto |  Extensión |  Proyecto |
-| -- | -- | -- | -- | -- |
-| E | Documento de Historias de Usuario | P | .md | Smart Money Prototype Online |
-| E | Plan de Proyecto | P | .md | Smart Money Prototype Online |
-| S | Git-2.33.1-64-bit | E | .exe | - |
-| S | VSCodeUserSetupx64-1.61.2 | E | exe | - |
-| F | backup | P | .json | Smart Money Prototype Online |
-| E | Plan Gestión de la Configuración | E | .md | Smart Money Prototype Online |
-| E | Documento de Base de Datos | P | .md | Smart Money Prototype Online |
-| E | Documento de Arquitectura | P | .md | Smart Money Prototype Online |
-| E | Documento de Despliegue | P | .md | Smart Money Prototype Online |
-| E | Documento de Diseño | P | .md | Smart Money Prototype Online |
-| S | MySQL | E | .md | Smart Money Prototype Online |
-| S | Modelo de Distribución | P | .md | Smart Money Prototype Online |
-| S | Modelo de Maquetado de prototipos | P | .md | Smart Money Prototype Online |
-| S | Código fuente BackEnd | P | .py | Smart Money Prototype Online |
-| S | URI de Base de Datos con credenciales| P | .md | Smart Money Prototype Online |
-
-| Tabla 2. Lista de clasificación de los Ítems de la Configuración del proyecto ECI|
-| --|
-
-## 2.1.2 Definición de la Nomenclatura de ítem
-A continuación, se define la estructura de la nomenclatura para los nombres de los elementos de la configuración
-
--Caso 1: En caso el ítem se trate de un elemento o documento que sea de uso en un proyecto en específico.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Caso 1: En caso el ítem se trate de un elemento o documento que sea de uso en un proyecto en específico.
 
 |**Nomenclatura**|
 | :-: |
 |<p>ACRÓNIMO DEL PROYECTO + "-" + ACRÓNIMO DEL ELEMENTO+ "."+<br/> EXTENSIÓN DEL ARCHIVO</p><p></p><p>*Ejemplo:*</p><p>*SMPO-PP.md*</p><p></p>|
 
--Caso 2: En caso de que el elemento sea solo para un proyecto y no un elemento perteneciente a un módulo.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Caso 2: En caso de que el elemento sea solo para un proyecto y no un elemento perteneciente a un módulo.
 
-|**Nomenclatura**|
-| :-: |
-|<p>ACRÓNIMO DEL PROYECTO+"-"+ ACRÓNIMO DEL DOCUMENTO+"."+<br/>EXTENSIÓN DEL ARCHIVO</p><p></p><p>*Ejemplo:*</p><p>*Documento de Base de Datos*</p><p>*SMPO-DBD.md*</p><p></p>|
+   |**Nomenclatura**|
+   | :-: |
+   |<p>ACRÓNIMO DEL PROYECTO+"-"+ ACRÓNIMO DEL DOCUMENTO+"."+<br/>EXTENSIÓN DEL ARCHIVO</p><p></p><p>*Ejemplo:*</p><p>*Documento de Base de Datos*</p><p>*SMPO-DBD.md*</p><p></p>|
 
--Caso 3: En caso de que el elemento pertenezca a un módulo.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Caso 3: En caso de que el elemento pertenezca a un módulo.
 
-|**Nomenclatura**|
-| :-: |
-|<p>ACRÓNIMO DEL PROYECTO + "-" + ACRÓNIMO DEL MÓDULO + "." +<br/> EXTENSIÓN DEL ARCHIVO</p><p></p><p>*Ejemplo:*</p><p>*Código Fuente Back-End*</p><p>*SMPO-CFBE.py*</p><p></p>|
-
-
-## 2.1.3 Lista de item con nomeclatura:
-La siguiente es una lista de los ítems mencionados anteriormente en el punto 2.1.1. Utilizaremos la nomenclatura ya explicada:
-| Tipo de Item	| Item |	Proyecto |
-| -- | -- | -- |
-| E | SMPO-DHU.md | SMPO |
-| E | SMPO-PP.md | SMPO |  
-| S |	SMPO-G.exe | - |
-| S |	VSCUS.exe |	- |
-| F |	SMPO-B.json | SMPO |
-| E |	SMPO-PGC.md | SMPO |
-| E |	SMPO-DBD.md	| SMPO |
-| E |	SMPO-DA.md | SMPO | 
-| E |	SMPO-DD.md | SMPO |
-| E |	SMPO-DDIS.md |	SMPO |
-| S |	MSQL.exe | - |
-| S |	SMPO-MD.md | SMPO |
-| S |	SMPO-MMP.md | SMPO |
-| S |	SMPO-CFBE.py |	SMPO |
-| S |	SMPO-UBDC.md |	SMPO |
-
+   |**Nomenclatura**|
+   | :-: |
+   |<p>ACRÓNIMO DEL PROYECTO + "-" + ACRÓNIMO DEL MÓDULO + "." +<br/> EXTENSIÓN DEL ARCHIVO</p><p></p><p>*Ejemplo:*</p><p>*Código Fuente Back-End*</p><p>*SMPO-CFBE.py*</p><p></p>|  
+   
+   &nbsp;&nbsp;&nbsp;
+   2.1.3 **Lista de ítem con la nomenclatura**  
+   &nbsp;&nbsp;&nbsp;&nbsp;La siguiente es una lista de los ítems mencionados anteriormente en el punto 2.1.1.  
+   &nbsp;&nbsp;&nbsp;&nbsp;Utilizaremos la nomenclatura ya explicada:  
+   
+   | Tipo de Item	| Item |	Proyecto |
+   | -- | -- | -- |
+   | E | SMPO-DHU.md | SMPO |
+   | E | SMPO-PP.md | SMPO |
+   | S |	SMPO-G.exe | - |
+   | S |	VSCUS.exe |	- |
+   | F |	SMPO-B.json | SMPO |
+   | E |	SMPO-PGC.md | SMPO |
+   | E |	SMPO-DBD.md	| SMPO |
+   | E |	SMPO-DA.md | SMPO | 
+   | E |	SMPO-DD.md | SMPO |
+   | E |	SMPO-DDIS.md |	SMPO |
+   | S |	MSQL.exe | - |
+   | S |	SMPO-MD.md | SMPO |
+   | S |	SMPO-MMP.md | SMPO |
+   | S |	SMPO-CFBE.py |	SMPO |
+   | S |	SMPO-UBDC.md |	SMPO |
+   
+---
