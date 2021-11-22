@@ -150,7 +150,7 @@ Integrantes:
    |  |  | *HU Módulo de Login SMPO-ML |
    |  |  | *HU Módulo de Inversión SMPO-MI |
    |  |  | *HU Módulo de Contacto SMPO-MC |
-   | Línea Base 3 |	Sprint 2 | Código Fuente: |   
+   | Línea Base 3 |	Sprint 3 | Código Fuente: |   
    |  |  | *HU - Modulo Cambista SMPO-MCO |
    |  |  | HU - Modulo Historial SMPO-MH |
    |  |  | *Retoque de estilos finales a la interfaz SMPO-CD |
