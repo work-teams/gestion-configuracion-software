@@ -132,9 +132,10 @@ Integrantes:
    | S |	SMPO-CFBE.py |	SMPO |
    | S |	SMPO-UBDC.md |	SMPO |
    
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2.3 **Líneas Base** 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 2.2.2.3 **Líneas Base** 
      
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Listamos los elementos que se entregarán por cada línea base  correspondiente a su sprint:
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Listamos los elementos que se entregarán por cada línea base  correspondiente a su sprint:
         
    | Línea  base	| Sprint |Ítem de Configuración |
    | -- | -- | -- |
