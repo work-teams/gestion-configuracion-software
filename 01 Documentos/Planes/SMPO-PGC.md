@@ -139,7 +139,7 @@ Integrantes:
    | Línea  base	| Sprint |Ítem de Configuración |
    | -- | -- | -- |
    | Línea Base 1 | Sprint 1 | *Resultados de la Encuesta SMPO-RE.XLS
-*Plan de proyecto SMPO-PP.DOCX
+                                *Plan de proyecto SMPO-PP.DOCX
 *Lista de Historias de Usuario SMPO-LHU.DOCX 
 *Documentos de Historias de Usuario 
 *Documentos de Base de datos SMPO-DBD.DOCX
