@@ -131,4 +131,30 @@ Integrantes:
    | S |	SMPO-MMP.md | SMPO |
    | S |	SMPO-CFBE.py |	SMPO |
    | S |	SMPO-UBDC.md |	SMPO |
+   
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2.3 **Líneas Base** 
+     
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Listamos los elementos que se entregarán por cada línea base  correspondiente a su sprint:
+        
+   | Línea  base	| Sprint |Ítem de Configuración |
+   | -- | -- | -- |
+   | Línea Base 1 | Sprint 1 | *Resultados de la Encuesta SMPO-RE.XLS
+*Plan de proyecto SMPO-PP.DOCX
+*Lista de Historias de Usuario SMPO-LHU.DOCX 
+*Documentos de Historias de Usuario 
+*Documentos de Base de datos SMPO-DBD.DOCX
+*Documento de Arquitectura de Software SMPO-DAS.DOCX
+*Documento de Diseño de Interface SMPO-DDI.DOCX
+*Documento de Diseño de Software SMPO-DDS.DOCX |
+   | Línea Base 2 | Sprint 2 | Código Fuente:
+*HU Módulo de Login SMPO-ML
+*HU Módulo de Inversión SMPO-MI
+*HU Módulo de Contacto SMPO-MC |
+   | Línea Base 3 |	Sprint 2 | Código Fuente:
+*HU - Modulo Cambista SMPO-MCO
+*HU - Modulo Historial SMPO-MH
+*Retoque de estilos finales a la interfaz SMPO-CD
+*Configuraciones finales SMPO-CC
+*Generar Documentación para el usuario SMPO-MU.DOCX |
+
   
