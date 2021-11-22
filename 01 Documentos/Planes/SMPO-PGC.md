@@ -155,7 +155,7 @@ Integrantes:
    |  |  | HU - Modulo Historial SMPO-MH |
    |  |  | *Retoque de estilos finales a la interfaz SMPO-CD |
    |  |  | *Configuraciones finales SMPO-CC |
-   |  | *Generar Documentación para el usuario SMPO-MU.DOCX | 
+   |  |  | *Generar Documentación para el usuario SMPO-MU.DOCX | 
 
 
   
