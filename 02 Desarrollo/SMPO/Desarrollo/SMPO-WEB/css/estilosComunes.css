@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("http://fonts.cdnfonts.com/css/coco-gothic");
+
+@font-face {
+  font-family: Gotham-Rounded;
+  src: url(../fonts/Gotham-Rounded-Bold.otf);
+  font-weight: bold;
+}
+
+.fondo {
+  background-image: url(../img/image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 100%;
+}
+/* Nuevo navbar */
+.barra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  background: #ffffff;
+
+}
+
+.barra a {
+  text-decoration: none;
+  color: black;
+  font-family: Gotham-Rounded;
+  font-size: 24px;
+  margin: 10px;
+}
+.subtitulo{
+  display: flex;
+  justify-content: left;
+  font-family: Gotham-Rounded;
+  font-size: 36px;  
+  margin: 20px;
+}
+.user-name{
+  display: flex;
+  justify-content: center;
+  font-family: Gotham-Rounded;
+  font-size: 110px;  
+  margin: 20px;
+}
+
+.user-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.user-box{    
+  box-shadow: 0px 4px 4px #1d171775;
+  border-radius: 20px;      
+  padding: 10px;  
+}
+
+.user-box a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  text-align: center;
+  text-decoration: none;
+  color: black;
+
+  font-family: Gotham-Rounded;
+  font-size: 36px;  
+
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+/*Requiere modificardatos.php*/
+.imgmodificar {
+  width: 90%;
+  height: 100%;
+}
+
+/*Requiere contacto.php*/
+.invertir {
+  border: 0.5px solid black;
+}
+.informacionc {
+  font-family: "Alata", sans-serif;
+}
+.btnw {
+  width: 65%;
+  height: 75%;
+}
+.infot {
+  font-size: 20px;
+}
+
+/*Requiere principal.php*/
+.titulop {
+  font-family: "Alata", sans-serif;
+}
+
+
+/*Requiere usuario.php*/
+.imgv {
+  margin: 5px;
+  padding: 2px;
+  border: 0.5px solid white;
+}
+
+.box-con {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  position: static;
+  width: 633px;
+  height: 594px;
+  left: 61.5px;
+  top: 66px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.con {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.botonEnlace {
+  position: absolute;
+  bottom: 5%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  background-color: #01541c;
+  color: white;
+  font-family: "Alata", sans-serif;
+  border: 0.5px solid black;
+}
+.botonEnlace:hover {
+  color: white;
+  background-color: #14a342;
+}
+
+/*Requiere registro.php*/
+.fondoRegistro {
+  background-image: url("../img/fondoRegist2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 100%;
+}
+.encabezado {
+  font-size: 30px;
+  font-weight: bold;
+}
+.titulot {
+  font-family: "Russo One", sans-serif;
+}
+
+/*Requiere invertir.php*/
+.botonEnlace2 {
+  position: absolute;
+  bottom: 5%;
+  left: 29%;
+  transform: translate(-50%, -50%);
+  background-color: #01541c;
+  color: white;
+  font-family: "Alata", sans-serif;
+  border: 0.5px solid black;
+}
+.botonEnlace2:hover {
+  color: white;
+  background-color: #14a342;
+}
+
+/*Grafico*/
+.navbarzzz ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbarzzz li a{
+  font-family: Gotham-Rounded;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 18px;
+  color: black;
+  display: block;
+  text-decoration: none;
+  background-color: white;
+}
+
+.title{
+  width: auto;
+  height: 132px;
+  font-family: Gotham-Rounded;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 132px;  
+  text-align: center;
+  color: #000000;
+  margin:0px
+}
+
+.graphicbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding: 20px 0px;
+}
+
+.gbox{
+  width: 70%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.title_graph{
+  position: static;
+  width: 100%;
+  height: 75px;
+  background: #007AFF;
+  border: 4px solid #000000;
+  font-family: Gotham-Rounded;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0px;
+  color: #FFFFFF;
+}
+
+#grafica{
+  border: solid black;
+  border-width: 0px 4px 4px 4px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}

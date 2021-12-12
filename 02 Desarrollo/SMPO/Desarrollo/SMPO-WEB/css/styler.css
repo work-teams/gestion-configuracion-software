@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/coco-gothic');
+
+@font-face {
+    font-family: Gotham-Rounded;
+    src: url(./fonts/Gotham-Rounded-Bold.otf);
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    background: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 100px;
+    justify-content: space-between;
+}
+
+nav .nav-items ul {
+    display: flex;
+    flex: 1;
+    align-content: flex-start;
+    padding: 0 40px;
+}
+
+nav .nav-items li {
+    list-style: none;
+    padding: 0 15px;
+    font-family: Gotham-Rounded;
+}
+
+nav .logo a {
+    font-family: Gotham-Rounded;
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
+}
+
+nav .nav-items li a {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav .nav-items-right {
+    justify-content: space-between;
+}
+
+nav .nav-items-right a#IniSe {
+    color: black;
+    font-size: 18px;
+    padding-right: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: Gotham-Rounded;
+}
+
+nav .nav-items li a:hover {
+    color: #3D509E;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col-2,
+.col-3,
+.col-4 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img,
+.col-3 img,
+.col-4 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.contenido {
+    width: auto;
+}
+
+.container#contb .col-4 h1,
+.container#contb .col-6 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    color: black;
+    margin: 25px 0;
+    font-weight: 800;
+    font-family: Gotham-Rounded;
+}
+
+.container#contb .col-4 p,
+.container#contb .col-6 p {
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+    margin: 25px 0;
+    font-weight: 400;
+    font-family: 'Coco Gothic', sans-serif;
+}
+
+.cont#col {
+    background-color: #3D509E;
+}
+
+.cont#bla {
+    background-color: white;
+}
+
+
+.container#contc .col-4 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    margin: 25px 0;
+    font-weight: 800;
+    font-family: Gotham-Rounded;
+}
+
+.container#contc .col-4 p {
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    margin: 25px 0;
+    font-weight: 400;
+    font-family: 'Coco Gothic', sans-serif;
+}
+
+#quest {
+    background-color: #3D509E;
+}
+
+#questi {
+    font-family: Gotham-Rounded;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    margin: 25px 0;
+    font-weight: 400;
+    align-content: center;
+}
+
+.bttn {
+    display: inline-block;
+    background-color: #4357AD;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    text-decoration: none;
+    font-family: Gotham-Rounded;
+}
+
+.bttn:hover {
+    background: #CAA8F5;
+    color: black;
+}
+
+#Registr {
+    display: inline-block;
+    background-color: #4357AD;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    border: none;
+}
+
+#Registr a {
+    color: white;
+    text-decoration: none;
+    font-family: Gotham-Rounded;
+    font-size: 18px;
+}
+
+.header {
+    background: white;
+}
+
+.header .row {
+    margin-top: 50px;
+}
+
+.bttn-atl {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    text-decoration: none;
+    font-family: Gotham-Rounded;
+}
+
+.bttn-atl:hover {
+    background: #CAA8F5;
+    color: #4357AD;
+}
+
+.vl {
+    border-left: 3px solid black;
+    height: 10px;
+    width: 10px;
+}
+
+
+
+.footer .logo a {
+    font-family: Gotham-Rounded;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+#rowfooter {
+    display: inline-flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+#rowfooter .col-2 {
+    width: auto;
+    align-content: center;
+    align-items: center;
+}
+
+#rowfooter .col-10 .col-2 h2 {
+    font-size: 20px;
+    font-family: Gotham-Rounded;
+}
+
+#rowfooter i {
+    color: black;
+    width: 15px;
+    height: 15px;
+}
+
+#rowfooter #abajo .col-1 {
+    width: fit-content;
+    padding: 0px 5px;
+    margin: 0px;
+}
+
+#rowfooter #abajo .col-1 a {
+    font-family: 'Coco Gothic', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
