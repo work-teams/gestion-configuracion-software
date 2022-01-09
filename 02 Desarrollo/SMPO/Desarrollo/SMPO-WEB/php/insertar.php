@@ -9,8 +9,9 @@
     $compra=$_POST["resultado2"];
     $usuario=$_POST["usuario"];    
 
-    $sql="INSERT into `$usuario` (precioDolar,precioEuro,compra, descuento)
-			values ('$dolar','$euro','$compra','$descuento')";
-	echo mysqli_query($conexion,$sql);
-
+    // CONSULTA SQL
+    $sql="INSERT into `$usuario` (precioDolar,precioEuro,compra, descuento) 
+    values ('$dolar','$euro','$compra','$descuento')";
+	
+    echo mysqli_query($conexion,$sql);
 ?>
