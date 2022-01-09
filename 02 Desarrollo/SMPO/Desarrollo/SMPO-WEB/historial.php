@@ -79,20 +79,20 @@
                                             $precioDolar = $row['precioDolar'];
                                             $precioEuro = $row['precioEuro'];
                                             $fecha = $row['fecha'];?>
-                            <div>
-                                <tr class="text-center">
-                                    <td><?php echo $descuento ?></td>
-                                    <td><?php echo $compra ?></td>
-                                    <td><?php echo $precioDolar ?></td>
-                                    <td><?php echo $precioEuro ?></td>
-                                    <td><?php echo $fecha ?></td>
-                                </tr>
-                            </div> 
-                            <?php
+                                            <div>
+                                                <tr class="text-center">
+                                                    <td><?php echo $descuento ?></td>
+                                                    <td><?php echo $compra ?></td>
+                                                    <td><?php echo $precioDolar ?></td>
+                                                    <td><?php echo $precioEuro ?></td>
+                                                    <td><?php echo $fecha ?></td>
+                                                </tr>
+                                            </div> 
+                                            <?php
                                         }
-                            }
                                     }
-                                ?>
+                                }
+                            ?>
                         </table>
                     </div>
 
