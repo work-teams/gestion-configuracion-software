@@ -1,6 +1,8 @@
 $(document).ready(function(){
+
     $('#registrarNuevo').click(function(){
 
+        //Validacion de datos permitidos
         if($('#nombres').val()==""){
             alertify.alert("Debes agregar el nombre");
             return false;
@@ -39,7 +41,8 @@ $(document).ready(function(){
             return false;
         }
 
-        cadena="nombres=" + $('#nombres').val() + 
+        //Cadena de datos
+        cadena ="nombres=" + $('#nombres').val() + 
                 "&primerApellido=" + $('#primerApellido').val() + 
                 "&segundoApellido=" + $('#segundoApellido').val() + 
                 "&dni=" + $('#dni').val() + 
@@ -48,27 +51,28 @@ $(document).ready(function(){
                 "&password=" + $('#password').val() +
                 "&correo=" + $('#correo').val();
 
-                $.ajax({
-                    type:"POST",
-                    url:"php/registro.php",
-                    data:cadena,
-                    success:function(r){
+        //Validacion de datos correctos
+        $.ajax({
+            type:"POST",
+            url:"php/registro.php",
+            data:cadena,
+            success:function(r){
 
-                        if(r==2){
-                            alertify.alert("Usuario ya registrado, ingrese otro por favor.");
-                        }else if(r==100){
-                            alertify.alert("Numero de DNI se encuentra registrado.");
-                        }
-                        else if(r==99){
-                            alertify.alert("Correo ya registrado, ingrese otro por favor.");
-                        }
-                        else if(r==1){
-                            $('#frmRegistro')[0].reset();
-                            alertify.success("Usuario registrado con éxito.");
-                        }else{
-                            alertify.error("Error al registrar. Intente de nuevo.");
-                        }
-                    }
-                });
+                if(r==2){
+                    alertify.alert("Usuario ya registrado, ingrese otro por favor.");
+                }else if(r==100){
+                    alertify.alert("Numero de DNI se encuentra registrado.");
+                }
+                else if(r==99){
+                    alertify.alert("Correo ya registrado, ingrese otro por favor.");
+                }
+                else if(r==1){
+                    $('#frmRegistro')[0].reset();
+                    alertify.success("Usuario registrado con éxito.");
+                }else{
+                    alertify.error("Error al registrar. Intente de nuevo.");
+                }
+            }
+        });
     });
 });
