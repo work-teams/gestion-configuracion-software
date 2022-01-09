@@ -1,4 +1,5 @@
 function cargar(){
+  //variables
     bitcoinComprar = 0;
     bitcoinVender = 0;
     etherumComprar = 0;
@@ -26,6 +27,7 @@ function cargar(){
     tron2 = document.getElementById("VenderTron");
     window.setInterval(
       function(){
+        //intercambios
         if(tronComprar>=0){
           tronComprar = 45.15+aleatorio;
           aleatorio++;
