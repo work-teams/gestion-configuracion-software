@@ -1,52 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('http://fonts.cdnfonts.com/css/coco-gothic');
-
-@font-face {
-    font-family: Gotham-Rounded;
-    src: url(../fonts/Gotham-Rounded-Bold.otf);
-    font-weight: bold;
-}
-
-html {
+html{
     box-sizing: border-box;
     font-size: 70.5%;
 }
-
-*,
-*::before,
-*:after {
+*, *::before, *:after{
     box-sizing: inherit;
 }
-
-.fondoindex {
+.fondoindex{
     background-image: url("../img/bitcoin-3227986.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: auto;
+    width:auto;
     height: 100vh;
 }
-
-.titulot {
+.titulot{
     font-family: 'Russo One', sans-serif;
-    font-size: 5rem;
+    font-size: 5rem; 
 }
-
-.encabezado {
-    font-family: Gotham-Rounded;
-    font-size: 30px;
-    color: transparent;
-}
-
-#entrarSistema {
-    font-family: 'Coco Gothic', sans-serif;
-    border-radius: 10px;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    transition: 0.5s;
-    box-shadow: 4px 4px rgba(0, 0, 0, 0.315);
-}
-
-#olvPass {
-    font-family: 'Coco Gothic', sans-serif;
+.encabezado{
+    -webkit-text-stroke: 0.1rem black;
+    color: transparent; 
+    font-size: 3.5rem;
+    font-weight: bold;
 }
