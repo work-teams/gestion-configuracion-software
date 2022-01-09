@@ -2,7 +2,7 @@
 	
 	require_once "conexion.php";
 
-
+	// Invocando a la conexion 
 	$conexion=conexion();
 
 		$nombres=$_POST['nombres'];
@@ -16,14 +16,18 @@
 
 		if(buscaRepetido($dni,$telefono,$conexion)==9){
 			echo 2;
+
 		}else if(buscaRepetido($dni,$telefono,$conexion)==8){
 			echo 99;
+		
 		}else{
+
 			$sql= "UPDATE usuarios set nombres = '$nombres', primerApellido = '$primerApellido', segundoApellido = '$segundoApellido', dni = '$dni', telefono = '$telefono', password = '$password' WHERE usuario = '$usuarioSesion'";
 
 			echo $result=mysqli_query($conexion,$sql);
 		}
 
+		//Verificar si el usuario se repite
 		function buscaRepetido($dn,$telf,$conexion){
 
 			$sql3 = "SELECT COUNT(*) FROM usuarios WHERE dni = '$dn'";
@@ -36,9 +40,12 @@
 
 			if(mysqli_num_rows($result3) > 1){
 				return 9;
+			
 			}else if(mysqli_num_rows($result4) > 1){
 				return 8;
+			
 			}
+			
 			else{
 				return 0;
 			};
