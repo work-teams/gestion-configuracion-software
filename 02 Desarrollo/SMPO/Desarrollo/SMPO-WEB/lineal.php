@@ -32,3 +32,41 @@
     }
 </script>
 
+<!--Script Datos Dolar-->
+<script type="text/javascript">
+
+    datosX = crearCadenaLineal('<?php echo $datosX ?>');
+    datosY = crearCadenaLineal('<?php echo $datosY ?>');
+
+    //Dolar
+    var Dolar = {
+        x: datosX,
+        y: datosY,
+        type: 'scatter',
+        line: {
+            color: 'red',
+            width: 2
+        },
+        marker: {
+            color: 'red',
+            size: 12
+            }
+    };
+
+    //Layout
+    var layout = {
+		title: 'Grafica lineal',
+		xaxis: {
+			title: 'Fechas'
+		},
+		yaxis: {
+			title: '$$ Montos'
+		}
+	};
+
+    //Datos dolar
+    var data = [Dolar];
+
+    Plotly.newPlot('graficaLineal', data,layout);
+
+</script>
