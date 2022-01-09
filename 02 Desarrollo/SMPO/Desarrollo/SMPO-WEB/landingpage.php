@@ -8,8 +8,7 @@
     <title>SmartMoney</title>
     <link rel="stylesheet" href="./css/styler.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
@@ -17,7 +16,7 @@
     <div class="header">
         <nav>
             <div class="logo">
-                <a href="#">SmartMoney</a>
+                <a href="./landingpage.php">SmartMoney</a>
             </div>
             <div class="nav-items" style="margin-top:18px;">
                 <ul>
@@ -27,9 +26,9 @@
                 </ul>
             </div>
             <div class="nav-items-right">
-                <a href="#" id="IniSe">Iniciar Sesión</a>
+                <a href="./index.php" id="IniSe">Iniciar Sesión</a>
                 <button id="Registr">
-                    <a href="#">Registrarse</a>
+                    <a href="./registro.php">Registrarse</a>
                 </button>
             </div>
         </nav>
@@ -48,7 +47,7 @@
                     <a href="#" class="bttn">Comienza aquí &#8594;</a>
                 </div>
                 <div class="col-4">
-                    <img src="./img/lenguajesgrafica.png" alt="">
+                    <img src="./img/delesign-currency-exchange.png" alt="" style="width: 200px; height: 200px;">
                 </div>
             </div>
         </div>
@@ -67,7 +66,7 @@
             <div class="container" id="contc">
                 <div class="row">
                     <div class="col-4 color">
-                        <img src="./img/lenguajesgrafica.png" alt="">
+                        <img src="./img/undraw_in_no_time_-6-igucolor.png" alt="" style="width: 250px; height: 250px;">
                     </div>
                     <div class="col-4 color">
                         <h1>Rápido</h1>
@@ -96,7 +95,7 @@
                         <a href="#" class="bttn">Así lo hacemos seguro &#8594;</a>
                     </div>
                     <div class="col-4 blan">
-                        <img src="./img/lenguajesgrafica.png" alt="">
+                        <img src="./img/undraw_secure_server_re_8wsqnew.png" alt="" style="width: 250px; height: 250px;">
                     </div>
                 </div>
             </div>
@@ -106,7 +105,7 @@
             <div class="container" id="contc">
                 <div class="row">
                     <div class="col-4 color">
-                        <img src="./img/lenguajesgrafica.png" alt="">
+                        <img src="./img/undraw_approve_qwp7.png" alt="" style="width: 250px; height: 250px;">
                     </div>
                     <div class="col-4 color">
                         <h1>Confiable</h1>
