@@ -1,10 +1,10 @@
 <!DOCTYPE html>
+<html lang="es">
 <html>
 
 <head>
 	<meta charset="utf-8">
 	<title>Smart Money</title>
-
 	<?php require_once "php/scripts.php"; ?>
 	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/index.css">
@@ -40,7 +40,7 @@
 									<div class="form-group mt-3 pl-2 pr-2">
 										<span class="btn btn-success d-block btn-lg" id="entrarSistema">Entrar</span>
 									</div>
-									<h5 class="text-light text-center m-2" id="olvPass">¿No tienes cuenta aún? <a href='registro.php'>Regístrate</a></h5>
+									<h5 class="text-light text-center m-2">¿No tienes cuenta aún? <a href='registro.php'>Regístrate</a></h5>
 								</fieldset>
 							</form>
 						</div>
