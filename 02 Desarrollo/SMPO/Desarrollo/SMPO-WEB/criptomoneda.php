@@ -1,19 +1,25 @@
 <?php 
-	session_start();
+	
+  session_start();
 
 	if(isset($_SESSION['user'])){
 ?>
+
+<!--Documento de Criptomonedas -->
+
 <!DOCTYPE html>
 <html>
 <head>
+
   <title>Smart Money</title>
-	<?php require_once "php/scripts.php";?>
-	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/estilosComunes.css">
+	  <?php require_once "php/scripts.php";?>
+	  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilosComunes.css">
   
 </head>
+
 <body class="fondo" onload="cargar()" >
 <nav class="navbar pb-1 pt-1 navbar-expand-lg navbar-dark bg-dark mb-2 text-center">
     <a href="Principal.php" class="navbar-brand text-white text-center mr-3 px-3">SmartMoney</a>
