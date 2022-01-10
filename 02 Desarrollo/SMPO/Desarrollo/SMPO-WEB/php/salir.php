@@ -1,3 +1,4 @@
+/* Salir de la sesión */
 <?php 
 	session_start();
 

@@ -1,3 +1,4 @@
+/* Conexion a DB MySQL */
 <?php 
 	function conexion()
 	{
