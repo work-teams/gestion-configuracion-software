@@ -79,7 +79,8 @@
         </div>
 
       <div class="row text-center">
-        
+       
+      <!-- Comprar y vender BITECOIN -->
         <div class="col-lg-2 col-md-4 col-sm-6 py-2 px-1">
         
           <div class="card">
@@ -117,7 +118,9 @@
         </div>
         
       </div>
-        
+      
+      <!-- Comprar y vender ETHERUM-->
+
         <div class="col-lg-2 col-md-4 col-sm-6 py-2 px-1">
           
           <div class="card">
@@ -147,78 +150,152 @@
         
     </div>
     
+    <!-- Comprar y vender RIPPLE-->
         <div class="col-lg-2 col-md-4 col-sm-6 py-2 px-1">
+          
           <div class="card">
-          <h2 class="card-title-text">RIPPLE</h2>
-          <img class="card-img-top" src="img/ripple.jpg" alt="ripple" style="width:100%">
+          
+            <h2 class="card-title-text">RIPPLE</h2>
+            <img class="card-img-top" src="img/ripple.jpg" alt="ripple" style="width:100%">
+          
           <div class="row">
+          
           <div class="card-body">
+            
             <button type="input" class="btn btn-success btn-block my-1">
+             
               <div aclass="trade-button-title">COMPRAR: <span id ="ComprarRipple">0</span></div>
+            
             </button>
+            
             <button type="input" class="btn btn-primary btn-block my-1">
+             
               <div aclass="trade-button-title" >VENDER: <span id ="VenderRipple">0</span></div>
+            
             </button>
+          
           </div>
-          </div>
+          
         </div>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-6 py-2 px-1">
-          <div class="card">
+        
+      </div>
+        
+    </div>
+        
+    <!-- Comprar y vender DASH -->
+    <div class="col-lg-2 col-md-4 col-sm-6 py-2 px-1">
+          
+        <div class="card">
+          
           <h2 class="card-title-text">DASH</h2>
           <img class="card-img-top" src="img/dash.jpg" alt="dash" style="width:100%">
-          <div class="row">
-            <div class="card-body">
+        
+        <div class="row">
+           
+          <div class="card-body">
+          
             <button type="input" class="btn btn-success btn-block my-1">
+            
               <div aclass="trade-button-title" >COMPRAR: <span id ="ComprarDash">0</span></div>
+            
             </button>
+            
             <button type="input" class="btn btn-primary btn-block my-1">
+            
               <div aclass="trade-button-title" >VENDER: <span id ="VenderDash">0</span></div>
+            
             </button>
+          
           </div>
-          </div>
+          
         </div>
-        </div>
+        
+      </div>
+        
+    </div>
+       
+    <!-- Comprar y vender LITECOIN-->
+
         <div class="col-lg-2 col-md-4 col-sm-6 py-2 px-1">
+        
           <div class="card">
+          
           <h2 class="card-title-text">LITECOIN</h2>
+          
           <img class="card-img-top" src="img/litecoin.jpg" alt="litecoin" style="width:100%">
+          
           <div class="row">
+          
             <div class="card-body">
-            <button type="input" class="btn btn-success btn-block my-1">
-              <div aclass="trade-button-title" >COMPRAR: <span id ="ComprarLitecoin">0</span></div>
-            </button>
+            
+              <button type="input" class="btn btn-success btn-block my-1">
+              
+                <div aclass="trade-button-title" >COMPRAR: <span id ="ComprarLitecoin">0</span></div>
+            
+              </button>
+            
             <button type="input" class="btn btn-primary btn-block my-1">
+            
               <div aclass="trade-button-title" >VENDER: <span id ="VenderLitecoin">0</span></div>
+            
             </button>
+          
           </div>
-          </div>
+          
         </div>
-        </div>
+        
+      </div>
+       
+    </div>
+      
+    <!-- Comprar y vender TRON-->
+
         <div class="col-lg-2 col-md-4 col-sm-6 py-2 px-1">
+        
           <div class="card">
-          <h2 class="card-title-text">TRON</h2>
-          <img class="card-img-top" src="img/tron.jpg" alt="tron" style="width:100%">
+          
+            <h2 class="card-title-text">TRON</h2>
+            <img class="card-img-top" src="img/tron.jpg" alt="tron" style="width:100%">
+          
           <div class="row">
-            <div class="card-body">
+            
+          <div class="card-body">
+          
             <button type="input" class="btn btn-success btn-block my-1">
+            
               <div aclass="trade-button-title" >COMPRAR: <span id ="ComprarTron">0</span></div>
+            
             </button>
+            
             <button type="input" class="btn btn-primary btn-block my-1">
+            
               <div aclass="trade-button-title" >VENDER: <span id ="VenderTron">0</span></div>
+            
             </button>
+          
           </div>
-          </div>
+          
         </div>
-        </div>
-      </div> 
-  </div>
+        
+      </div>
+      
+    </div>
+    
+  </div> 
+  
+</div>
+
   <script src="funcionesJS/criptomoneda.js"></script>
+
 </body>
+
 </html>
 
 <?php
+
 } else {
-	header("location:index.php");
-	}
+
+  header("location:index.php");
+
+}
 ?>
