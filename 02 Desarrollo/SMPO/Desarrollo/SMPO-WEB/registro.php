@@ -1,88 +1,71 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Registro</title>
-	<?php require_once "php/scripts.php"; ?>
-	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/estilosComunes.css">
+<?php 
 
-</head>
-<body class="fondoRegistro">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-12">
-				<div class="panel panel-danger mt-4">
-					<h1 class="text-dark text-center titulot">SMART MONEY</h1>
-					<p class="text-dark encabezado text-center">Registro de usuario</p>
-				</div>
-			</div>
-		</div>
+	require_once "conexion.php";
+	$conexion=conexion();
 
-		<div class="panel panel-body">
-			<form id="frmRegistro">
-				<div class="form-row justify-content-between ">
-				
-					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-						<label for="">Nombres</label>
-						<input type="text" id="nombres" class="form-control" placeholder="Nombres">
-					</div>
+		//Campos para el registro
+		$nombres=$_POST['nombres'];
+		$primerApellido=$_POST['primerApellido'];
+		$segundoApellido=$_POST['segundoApellido'];
+		$dni=$_POST['dni'];
+		$telefono=$_POST['telefono'];
+		$usuario=$_POST['usuario'];
+		$password=sha1($_POST['password']);
+		$correo=$_POST['correo'];
 
-					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-						<label for="">Primer Apellido</label>
-						<input type="text" id="primerApellido" class="form-control" placeholder="Primer Apellido">
-					</div>
+		//Validar que el usuario es nuevo
+		if(buscaRepetido($usuario,$correo,$dni,$conexion)==9){
+			echo 2;
+		}else if(buscaRepetido($usuario,$correo,$dni,$conexion)==8){
+			echo 99;
+		}else if(buscaRepetido($usuario,$correo,$dni,$conexion)==10){
+			echo 100;
+		}
+		else{
+			//Registrar nuevo usuario
+			$sql="INSERT into usuarios (nombres,primerApellido,segundoApellido,dni,telefono,usuario,password,correo)
+				values ('$nombres','$primerApellido','$segundoApellido','$dni','$telefono','$usuario','$password','$correo')";
+			$sql2 = "CREATE TABLE `$usuario` (
+				`id` int(22) NOT NULL AUTO_INCREMENT,
+				`precioDolar` float NOT NULL,
+				`precioEuro` float NOT NULL,
+				`compra` varchar(250) COLLATE utf8_unicode_ci NOT NULL,
+				`fecha` timestamp NOT NULL DEFAULT current_timestamp(),
+				`descuento` varchar(22) COLLATE utf8_unicode_ci NOT NULL,
+				PRIMARY KEY (id)
+			  ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci";
 
-					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-						<label for="">Segundo Apellido</label>
-							<input type="text" id="segundoApellido" class="form-control" placeholder="Segundo Apellido">
-					</div>
+			$result2=mysqli_query($conexion,$sql2);
+			$result=mysqli_query($conexion,$sql);
 
-					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-						<label for="">Numero DNI</label>
-						<input type="text" id="dni" class="form-control" placeholder="DNI">
-					</div>
+			if ($result == 1 and $result2 == 1) {
+				echo $result;
+			}
+		}
+		
+		//Busqueda de Usuario Repetido
+		function buscaRepetido($user,$corr,$dn,$conexion){
+			
+			$sql="SELECT * from usuarios where usuario='$user'";
 
-					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-						<label for="">Teléfono</label>
-						<input type="text" id="telefono" class="form-control" placeholder="Teléfono">
-					</div>
+			$sql2="SELECT * from usuarios where correo='$corr'";
 
-					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-						<label for="">Fecha Nacimiento</label>
-						<input class="form-control" id="fechaNac" type="date" min="1900-01-01" max="2002-08-29" value="" id="example-date-input" required>
-					</div>
-
-					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-						<label for="">Usuario</label>
-						<input type="text" id="usuario" class="form-control" placeholder="Usuario">
-					</div>
-
-					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-						<label for="">Correo Electrónico</label>
-						<input type="email" id="correo" class="form-control" placeholder="Correo electrónico">
-					</div>
-
-					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-						<label for="">Contraseña</label>
-						<input type="password" id="password" class="form-control" placeholder="Contraseña">
-					</div>
-
-
-				</div>
-
-				<div class="form-row justify-content-around botones my-3">
-					<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-						<a href="index.php" class="btn btn-danger d-block">Volver al inicio</a>
-					</div>
-					<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-						<span class="btn btn-success d-block" id="registrarNuevo">Registrarse</span>
-					</div>
-				</div>
-
-			</form>
-		</div>
-
-	</div>
-	<script src="funcionesJS/registro.js"></script>
-</body>
-</html>
+			$sql3="SELECT * from usuarios where dni='$dn'";
+			
+			$result=mysqli_query($conexion,$sql);
+			$result2=mysqli_query($conexion,$sql2);
+			$result3=mysqli_query($conexion,$sql3);
+			
+			if(mysqli_num_rows($result) > 0){
+				return 9;
+			}else if(mysqli_num_rows($result2) > 0){
+				return 8;
+			}
+			else if(mysqli_num_rows($result3) > 0){
+				return 10;
+			}
+			else{
+				return 0;
+			}
+		}
+ ?>
