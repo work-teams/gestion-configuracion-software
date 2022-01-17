@@ -1,0 +1,24 @@
+html{
+    box-sizing: border-box;
+    font-size: 70.5%;
+}
+*, *::before, *:after{
+    box-sizing: inherit;
+}
+.fondoindex{
+    background-image: url("../img/bitcoin-3227986.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:auto;
+    height: 100vh;
+}
+.titulot{
+    font-family: 'Russo One', sans-serif;
+    font-size: 5rem; 
+}
+.encabezado{
+    -webkit-text-stroke: 0.1rem black;
+    color: transparent; 
+    font-size: 3.5rem;
+    font-weight: bold;
+}

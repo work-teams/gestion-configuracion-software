@@ -1,0 +1,102 @@
+.fondo{
+    background-image: url(../img/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:auto;
+    height: 100%;
+}
+
+/*Requiere modificardatos.php*/
+.imgmodificar{
+    width: 90%;
+    height: 100%;  
+}
+
+/*Requiere contacto.php*/
+.invertir{
+    border: 0.5px solid black;
+}
+.informacionc{
+    font-family: 'Alata', sans-serif;
+}
+.btnw{
+    width: 65%;
+    height: 75%;
+}
+.infot{
+    font-size:20px;
+}
+
+/*Requiere principal.php*/
+.titulop{
+    font-family: 'Alata', sans-serif;
+}
+
+/*Requiere historial.php*/
+.imgmodificar2{
+    width: 90%;
+    height: 45%;  
+}
+.tabla{
+    overflow:scroll;
+    height:480px;
+}
+
+/*Requiere usuario.php*/
+.imgv{
+    margin: 5px;
+    padding: 2px;
+    border: 0.5px solid white;
+}
+
+.con{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.botonEnlace{
+    position: absolute;
+    bottom: 5%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    background-color: #01541c;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    border: 0.5px solid black;
+}
+.botonEnlace:hover{
+    color: white;
+    background-color: #14a342;
+}
+
+/*Requiere registro.php*/
+.fondoRegistro{
+    background-image: url("../img/fondoRegist2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:auto;
+    height: 100%;
+}
+.encabezado{
+    font-size: 30px;
+    font-weight: bold;
+}
+.titulot{
+    font-family: 'Russo One', sans-serif;
+}
+
+/*Requiere invertir.php*/
+.botonEnlace2{
+    position: absolute;
+    bottom: 5%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    background-color: #01541c;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    border: 0.5px solid black;
+}
+.botonEnlace2:hover{
+    color: white;
+    background-color: #14a342;
+}
